@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-size: 14px;
+}
+.classChildren_checkbox:checked ~ .class_item {
+    display: block;
+}
+.classChildren_checkbox:checked ~ .class_header .icon_arrow {
+    transform: rotate(-90deg) !important;
+}
+.idfObject_header {
+    background-color: rgb(243 244 246 / 1);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.idfObject_row {
+    border-top-width: 1px;
+    align-items: center;
+    display: flex;
+    height: 48px;
+}
